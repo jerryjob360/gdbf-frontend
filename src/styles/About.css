@@ -1,0 +1,136 @@
+.about {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about #hide h3{
+  display: none;
+}
+
+.about #hide button{
+  display: none;
+}
+
+.about #show h3 {
+  display: inherit;
+}
+
+.about #show button {
+  display: inherit;
+}
+
+.aboutTop {
+  width: 100%;
+  height: 25%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  align-items: end;
+}
+
+
+.aboutTop h1 {
+ /* width: 70%;  */
+  font-size: 70px;
+  text-align: center;
+}
+
+.lowh2 {
+  margin-top: 0;
+  unicode-bidi: isolate;
+}
+
+.toph2 {
+  margin-bottom: 0;
+  unicode-bidi: isolate;  
+}
+
+.aboutBottom {
+  width: 75%;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  align-items: center;
+  margin-right: 2px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+
+.aboutBottom p {
+  width: 95%;
+  padding-bottom: 5%;
+  font-size: 20px;
+  color:black;
+  text-align: center;
+}
+
+.about .aboutBottom h1 {
+  font-weight: 400;
+  color: black;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  /* transform: translateY(-40px); */
+}
+
+.aboutBottom button {
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  justify-content: center;
+  background-color: #65cafa ;
+  height: 50px;
+  width: 180px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.aboutBottom button:hover {
+  background-color: rgb(225, 225, 225);
+  color: #121619;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 2.5%;
+}
+
+.missionVision {
+  display: flex;
+  flex-direction: row;
+}
+
+.mission {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  margin: 4px;
+}
+
+.vision {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  margin: 4px;
+}
+
+@media only screen and (max-width: 900px) {
+  .aboutBottom p{
+    width: 80%;
+  }
+  .missionVision {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  }
+}

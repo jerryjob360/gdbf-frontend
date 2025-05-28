@@ -1,0 +1,155 @@
+.home {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+  flex-direction: column;
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.adminLinks{
+  
+}
+
+.all #hide h3{
+  display: none;
+}
+
+.all #hide button{
+  display: none;
+}
+
+.all #show h3 {
+  display: inherit;
+}
+
+.all #show button {
+  display: inherit;
+}
+
+
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  /* width: min-content; */
+  /* margin-left: 50px; */
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.headerCont h1 {
+  /* align-items: center; */
+  font-size: 40px;
+  /* height: 60px; */
+  font-weight: 50;
+  color: black;
+}
+
+.header {
+  /* margin-bottom: 10%; */
+}
+
+.headerCont {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.headerCont p {
+  width: 100%;
+  padding: 2%;
+  font-size: 20px;
+  /* font-weight: 100; */
+  color:rgba(18, 31, 23, 0.95);
+}
+
+.headerCont button {
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  justify-content: center;
+  background-color: #65cafa;
+  height: 50px;
+  width: 180px;
+  text-decoration: none;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.headerContainer button:hover {
+  background-color: rgb(225, 225, 225);
+  color: #121619;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+
+@media only screen and (max-width: 650px) {
+  .home {
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+  }
+  .headerContainer h1,
+  .headerContainer p {
+    margin-bottom: 25%;
+  }
+
+  .headerCont {
+    margin-top: 20%;
+  }
+
+  .header h1 {
+    font-size: 20px;
+    font-weight: 50;
+  }
+
+  .headerCont p{
+    width: 90%;
+  }
+
+  .headerContainer {
+    /* margin-left: 0px; */
+    border-radius: 10px;
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    /* flex-direction: column; */
+    /* background-color: #121619; */
+    /* color: white; */
+  }
+
+  .headerContainer h1 {
+    font-size: 30px;
+    height: 30px;
+    
+    /* color: white; */
+  }
+
+  .headerContainer p {
+    font-size: 20px;
+    color: #121619;
+  }
+
+
+  .headerContainer button:hover {
+    background-color: rgb(225, 225, 225);
+    color: #121619;
+  }
+}

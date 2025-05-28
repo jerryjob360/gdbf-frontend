@@ -1,0 +1,132 @@
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  display: flex;
+  align-items:center ;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.footContent {
+  padding-top: 3%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content:space-evenly ;
+  /* justify-items: start; */
+}
+
+.abtUS{
+  width: 30%;
+}
+
+.events{
+  width: 30%;
+}
+
+.footContent a {
+  color: white;
+}
+
+.footer .copy{
+  text-decoration: none;
+  margin-top: 2.5%;
+}
+
+
+.footContent h2 {
+  color: white;
+}
+
+.socialMedia {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.socialMedia svg {
+  color: white;
+  margin: 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.socialLinks{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.footer p {
+  color: white;
+}
+
+.evnt {
+  font-size: 0;
+  background-color: #65cafa;
+  border-radius: 5%;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 4%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.evnt-img{
+  max-width: 50%;
+  display: inline-block;
+    height: auto;
+    /* vertical-align: middle; */
+    /* font-size: 14px; */
+}
+
+.evnt p {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+}
+
+.links p {
+  display: flex;
+  flex-direction: column;
+}
+
+.links .link{
+  color: white;
+  padding-bottom: 15%;
+}
+
+@media only screen and (max-width: 800px) {
+  .footContent{
+    /* margin-right: 12.5%;
+    margin-left: -6.25%; */
+    text-align: center;
+    justify-content:space-evenly ;
+    display: flex;
+    align-items: start;
+    width: 100%;
+  }
+  .abtUS{
+    display: none;
+  }
+  .links {
+    display: none;
+  }
+  .socialMedia {
+    /* margin-left: 2%; */
+    /* display: grid; */
+    /* padding-right: 12.5%; */
+  }
+  .socialLinks{
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 1fr 1fr;
+  }
+  .events{
+    margin-right: 2%;
+    align-items: start;
+    width: 55%;
+    /* text-align: center; */
+  }
+}

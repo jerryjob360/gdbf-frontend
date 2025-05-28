@@ -1,0 +1,12 @@
+.parent-div {
+    height: 3000px; /* Adjust the height of the parent div as needed */
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .fading-text {
+    margin: 0;
+    padding: 20px; /* Adjust the padding as needed */
+    background: linear-gradient(to bottom, transparent 0%, white 100%);
+    transition: background 0.5s ease; /* Adjust the transition duration as needed */
+  }

@@ -1,0 +1,130 @@
+.contact {
+    width: auto;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.all #hide h3{
+  display: none;
+}
+
+.all #hide button{
+  display: none;
+}
+
+.all #show h3{
+  display: inherit;
+}
+
+.all #show button{
+  display: inherit;
+}
+
+.text {
+    text-align: center ;
+    width: auto;
+    justify-items: start;
+    /* box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 15px; */
+    margin-right: 10%;
+}
+
+
+.form {
+    width: auto;
+    /* height: 55vh; */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(249, 243, 195, 0.8);
+}
+
+.form input {
+    margin-top: 10%;
+    border-radius: 12px;
+    height: 30px;
+    text-align: center;
+    width: 250px;
+    border-color: transparent;
+}
+
+.form button {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 15px;
+    height: 50px;
+    width: 250px;
+    border-color: transparent;
+    background-color: rgba(18, 31, 23, 0.95);
+}
+
+.form button:hover {
+    background-color: lightgrey;
+    color: #121619;
+  }
+
+.form textarea {
+    margin-top: 10%;
+    border-radius: 12px;
+    height: 60px;
+    text-align: center;
+    width: 250px;
+}
+
+.social{
+  /* box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 15px; */
+  margin-left: 10%;
+}
+
+.social p{
+  font-size: medium;
+  text-align: center;
+}
+
+.social a{
+  display: flex;
+  align-items: flex-end;
+  color: black;
+}
+
+.social svg {
+  color: black;
+}
+
+
+@media only screen and (max-width: 1300px) {
+    .contact {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+    }
+
+    .text {
+      margin-right: 0%;
+    }
+
+    .social {
+      margin-left: 0%;
+    }
+  }
+
+/* 
+  @media only screen and (max-width: 800px) {
+    .contact {
+      grid-template-columns: 1fr;
+    }
+  } */
