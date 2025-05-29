@@ -1,4 +1,4 @@
-import api from '../../utils/axios';
+import api from '../utils/axios';
 import React, { useEffect, useState } from 'react';
 import '../styles/allPosts.css';
 import { Link, useNavigate } from 'react-router-dom';
