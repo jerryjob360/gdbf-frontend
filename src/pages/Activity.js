@@ -1,14 +1,14 @@
-import React, { useEffect, useState } from 'react';
-import { Formik, Form, Field, ErrorMessage, validateYupSchema } from "formik";
-import axios from 'axios';
+import React, { useEffect } from 'react';
+import { Formik, Form, Field } from "formik";
+import api from '../../utils/axios';
 import '../styles/activity.css';
 import { useNavigate } from 'react-router-dom';
 import { useStateContext } from '../contexts/contextProvider';
-import LanguageSelector from '../components/LanguageSelector';
+
 
 function Activity() {
 
-  const { currentUser, userToken, setcurrentUser, setuserToken } = useStateContext();
+  const { currentUser, setcurrentUser } = useStateContext();
 
   const initialValues = {
     title: "",
@@ -29,7 +29,7 @@ function Activity() {
     formData.append("body", data.body);
     formData.append("image", data.image);
     // console.log(data);
-    axios.post(`${process.env.REACT_APP_API_URL}/activity`, formData,
+    api.post(`/activity`, formData,
       {
         headers: {
           accessToken: localStorage.getItem('accessToken'),
@@ -52,7 +52,7 @@ function Activity() {
   const addAdmin = (data) => {
     console.log('attempting');
     console.log(data);
-    axios.post(`${process.env.REACT_APP_API_URL}/auth`, data,
+    api.post(`/auth`, data,
       {
         headers: {
           accessToken: localStorage.getItem('accessToken'),
@@ -74,7 +74,7 @@ function Activity() {
     if (!currentUser) {
       nav('/');
     }
-  }, [])
+  }, [currentUser, nav])
 
   // useEffect(() => {
   //   if(user_name){

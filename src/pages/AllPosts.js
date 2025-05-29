@@ -1,9 +1,8 @@
-import axios from 'axios';
+import api from '../../utils/axios';
 import React, { useEffect, useState } from 'react';
 import '../styles/allPosts.css';
 import { Link, useNavigate } from 'react-router-dom';
 import { useStateContext } from '../contexts/contextProvider';
-import Activity from './Activity';
 
 function AllPosts() {
 
@@ -13,14 +12,14 @@ function AllPosts() {
 
 
   useEffect(() => {
-    axios.get(`${process.env.REACT_APP_API_URL}/activity`).then((response) => {
+    api.get(`/activity`).then((response) => {
       setAllPosts(response.data.reverse());
     });
   }, []);
 
 
   const handleDelete = (id) => {
-      axios.delete(`${process.env.REACT_APP_API_URL}/activity/${id}`).then(() => {
+      api.delete(`/activity/${id}`).then(() => {
         setAllPosts(allPosts.filter(post => post.id !== id));
         alert("Event Deleted!")
       })
@@ -41,7 +40,7 @@ function AllPosts() {
         formData.append('image', editedData.image);
       }
 
-      axios.put(`${process.env.REACT_APP_API_URL}/activity/${id}`, formData, {
+      api.put(`/activity/${id}`, formData, {
         headers: { 'Content-Type' : 'multipart/form-data' }
       }).then(() => {
         const updatedPosts = allPosts.map(post => {
@@ -64,14 +63,14 @@ function AllPosts() {
   
   
     
-  const { currentUser, userToken, setcurrentUser, setuserToken } = useStateContext();
+  const { currentUser, setcurrentUser } = useStateContext();
 
   const [admin, setAdmin] = useState(false)
   useEffect(() => {
     if(currentUser){
       setAdmin(true);
     }
-  }, [])
+  }, [currentUser])
 
   const nav = useNavigate();
   const logOut = () => {
