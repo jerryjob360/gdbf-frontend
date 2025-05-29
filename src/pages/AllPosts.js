@@ -1,4 +1,4 @@
-import api from '../utils/axios';
+import api from '../../utils/axios';
 import React, { useEffect, useState } from 'react';
 import '../styles/allPosts.css';
 import { Link, useNavigate } from 'react-router-dom';
@@ -141,7 +141,7 @@ function AllPosts() {
 
           {editPostId === value.id ? (
             (
-              editedData.image = `http://localhost:3001/uploads/${value.image}`
+              editedData.image = `${api}/uploads/${value.image}`
             ),
             <>
               {editedData.image && (
