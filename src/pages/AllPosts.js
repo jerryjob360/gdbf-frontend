@@ -13,14 +13,14 @@ function AllPosts() {
 
 
   useEffect(() => {
-    axios.get('http://localhost:3001/activity').then((response) => {
+    axios.get(`${process.env.REACT_APP_API_URL}/activity`).then((response) => {
       setAllPosts(response.data.reverse());
     });
   }, []);
 
 
   const handleDelete = (id) => {
-      axios.delete(`http://localhost:3001/activity/${id}`).then(() => {
+      axios.delete(`${process.env.REACT_APP_API_URL}/activity/${id}`).then(() => {
         setAllPosts(allPosts.filter(post => post.id !== id));
         alert("Event Deleted!")
       })
@@ -41,7 +41,7 @@ function AllPosts() {
         formData.append('image', editedData.image);
       }
 
-      axios.put(`http://localhost:3001/activity/${id}`, formData, {
+      axios.put(`${process.env.REACT_APP_API_URL}/activity/${id}`, formData, {
         headers: { 'Content-Type' : 'multipart/form-data' }
       }).then(() => {
         const updatedPosts = allPosts.map(post => {

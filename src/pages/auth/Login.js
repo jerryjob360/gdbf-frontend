@@ -26,7 +26,7 @@ function Login() {
       username: username,
       password: password
     };
-    axios.post('http://localhost:3001/auth/login', credentials).then((response) => {
+    axios.post(`${process.env.REACT_APP_API_URL}/auth/login`, credentials).then((response) => {
 
       if (response.data.error) {
         alert(response.data.error);

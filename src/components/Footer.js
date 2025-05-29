@@ -15,7 +15,7 @@ function Footer() {
   const [listOfActivities, setListOfActivities] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:3001/activity").then((response) => {
+    axios.get(`${process.env.REACT_APP_API_URL}/activity`).then((response) => {
       setListOfActivities(response.data);
     });
   }, []);

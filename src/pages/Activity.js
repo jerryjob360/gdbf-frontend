@@ -29,7 +29,7 @@ function Activity() {
     formData.append("body", data.body);
     formData.append("image", data.image);
     // console.log(data);
-    axios.post("http://localhost:3001/activity", formData,
+    axios.post(`${process.env.REACT_APP_API_URL}/activity`, formData,
       {
         headers: {
           accessToken: localStorage.getItem('accessToken'),
@@ -52,7 +52,7 @@ function Activity() {
   const addAdmin = (data) => {
     console.log('attempting');
     console.log(data);
-    axios.post('http://localhost:3001/auth', data,
+    axios.post(`${process.env.REACT_APP_API_URL}/auth`, data,
       {
         headers: {
           accessToken: localStorage.getItem('accessToken'),
