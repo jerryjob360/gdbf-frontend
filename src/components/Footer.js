@@ -6,7 +6,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
 import '../styles/Footer.css';
 import { Link } from 'react-router-dom';
-import api from '../../utils/axios';
+import api from '../utils/axios';
 import AllPosts from '../pages/AllPosts';
 import About from '../pages/About';
 

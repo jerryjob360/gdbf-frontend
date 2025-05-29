@@ -1,4 +1,4 @@
-import api from '../../utils/axios';
+import api from '../utils/axios';
 import React, { useEffect, useState } from 'react';
 import '../styles/allPosts.css';
 import { Link, useNavigate } from 'react-router-dom';
@@ -162,7 +162,7 @@ function AllPosts() {
             </>
           ) : (
             <img
-            src={`http://localhost:3001/uploads/${value.image}`}
+            src={`${api}/uploads/${value.image}`}
             alt={value.title}
             className='evnt-img'
             />

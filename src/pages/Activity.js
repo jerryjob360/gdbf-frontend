@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Formik, Form, Field } from "formik";
-import api from '../../utils/axios';
+import api from '../utils/axios';
 import '../styles/activity.css';
 import { useNavigate } from 'react-router-dom';
 import { useStateContext } from '../contexts/contextProvider';
