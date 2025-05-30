@@ -128,6 +128,11 @@
   .aboutBottom p{
     width: 80%;
   }
+
+  .aboutBottom Link {
+    align-items: center;
+    text-align: center;
+  }
   .missionVision {
     display: flex;
     flex-direction: column;
