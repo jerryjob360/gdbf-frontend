@@ -44,7 +44,8 @@
     height: 40px;
     width: 250px;
     border-color: transparent;
-    background-color: #121917;
-    color: white;
+    background-color: #65cafa;
+    color: black;
     font-size: larger;
+    cursor: pointer;
   }
