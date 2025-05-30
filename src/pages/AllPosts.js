@@ -141,7 +141,7 @@ function AllPosts() {
 
           {editPostId === value.id ? (
             (
-              editedData.image = `${api}/uploads/${value.image}`
+              editedData.image = value.image
             ),
             <>
               {editedData.image && (
@@ -162,7 +162,7 @@ function AllPosts() {
             </>
           ) : (
             <img
-            src={`${api}/uploads/${value.image}`}
+            src={value.image}
             alt={value.title}
             className='evnt-img'
             />
