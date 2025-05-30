@@ -68,7 +68,7 @@
   font-size: 20px;
   color:black;
   text-align: center;
-  font-size: x-small;
+  font-size: smaller;
 }
 
 .about .aboutBottom h1 {
@@ -111,6 +111,10 @@
 .missionVision {
   display: flex;
   flex-direction: row;
+}
+
+.missionVision p {
+  font-size: x-small;
 }
 
 .mission {
