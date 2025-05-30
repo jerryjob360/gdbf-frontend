@@ -84,7 +84,11 @@ function AllPosts() {
     <div className='allHome'>
       <div className='adminLinks' id={admin? "show":"hide"}>
         <h3>Hi {currentUser}!</h3>
-        <Link className='add-evnt-btn' to='/Activities'>Add Event</Link>
+        {
+          currentUser && (
+            <Link className='add-evnt-btn' to='/Activities'>Add Event</Link>
+          )
+        }       
         
         <button className='logOutBtn' onClick={logOut}>Log out</button>
       </div>
