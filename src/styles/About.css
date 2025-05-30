@@ -129,14 +129,11 @@
     width: 80%;
   }
 
-  .aboutBottom Link {
-    align-items: center;
-    text-align: center;
-  }
   .missionVision {
     display: flex;
     flex-direction: column;
     width: 75%;
+    margin: 15%;
   }
   .buttons{
     display: flex;
