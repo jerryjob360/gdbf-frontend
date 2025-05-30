@@ -121,7 +121,7 @@
   }
   .socialLinks{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     grid-template-columns: 1fr 1fr;
   }
   .events{
