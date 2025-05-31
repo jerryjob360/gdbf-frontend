@@ -40,13 +40,7 @@ function Navbar() {
         <Headroom>
             <div className='navbar'>
                 <div className='leftSide' id={openLinks ? "open" : "close"} >
-                    <NavLink
-                                to='/'
-                                className={({ isActive }) => 
-                                [
-                                    isActive? 'active-link':''
-                                ]}        
-                            > 
+                    <NavLink to='/' className= 'logoLink'> 
                             <img src={isMobile ? logoSm : logoBg} alt="Company Logo" className='logoImg'/>
                     </NavLink>
                     

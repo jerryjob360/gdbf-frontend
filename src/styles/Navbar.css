@@ -14,8 +14,10 @@
   height: 100%;
   display: flex;
   align-items:center ;
-  /* justify-content: left; */
-  padding-left: 5px;
+}
+
+.logoLInk {
+  margin-left: 10%;
 }
 
 /* .navbar .leftSide img {
