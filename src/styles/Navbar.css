@@ -144,9 +144,10 @@ body {
     display: none;
   }
 
-  /* .logoImg {
+  .logoImg {
     width: 5%;
-  } */
+    height: auto;
+  }
 
 }
 
