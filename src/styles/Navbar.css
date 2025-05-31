@@ -150,33 +150,46 @@ body {
   }
   
   .google-translate-container {
-    min-width: 80px;
+    min-width: 50px;
   }
 
 }
 
 
 @media only screen and (max-width: 600px) {
+  .navbar {
+    width: 100%;
+  }
+  .leftSide {
+    width: 50%;
+  }
+  .rightSide {
+    width: 50%;
+  }
   .logoImg {
     width: 40px;
     height: auto;
   }
-  .navbar .rightSide Link {
+  .hiddenLinks {
     font-size: x-small;
   }
 
   .navbar #open .hiddenLinks{
     margin-left: 10px;
   }
+
+  .google-translate-container {
+    min-width: 20px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
-  .navbar .rightSide Link {
+  .hiddenLinks {
     font-size: xx-small;
   }
 
   .google-translate-container {
-    min-width: 20px;
+    min-width: 10px;
   }
 
   .navbar #open .hiddenLinks{
