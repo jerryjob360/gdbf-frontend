@@ -67,7 +67,7 @@ function Footer() {
         </div>
 
       </div>
-          <Link to='/Login' className='copy'><p>&copy; 2021 GDFB</p></Link>
+          <Link to='/Login' className='copy'><p>&copy; 2021 GDFB  All Rights Reserved</p></Link>
     </div>
   )
 }
