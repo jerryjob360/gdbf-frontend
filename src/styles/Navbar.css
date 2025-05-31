@@ -117,8 +117,8 @@ body {
 }
 
 .navbar #open a {
-  width: 70px;
-  margin: 5px;
+  /* width: 70px; */
+  margin: 1px;
 }
 
 .logoImg {
