@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import logoBg from '../assets/gdfb_logo-nobg.png';
 import logoSm from '../assets/logo_small.png';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import ReorderIcon from '@mui/icons-material/Reorder';
 import '../styles/Navbar.css';
 import Headroom from 'react-headroom';
@@ -40,12 +40,12 @@ function Navbar() {
         <Headroom>
             <div className='navbar'>
                 <div className='leftSide' id={openLinks ? "open" : "close"} >
-                    <NavLink
+                    <Link
                                 to='/'
                                 className='logoLink'      
                             > 
                             <img src={isMobile ? logoSm : logoBg} alt="Company Logo" className='logoImg'/>
-                    </NavLink>
+                    </Link>
                     
                     {/* <h1>GDFB</h1> */}
                     <div className='hiddenLinks'>
