@@ -117,7 +117,7 @@ body {
 }
 
 .navbar #open a {
-  /* width: 70px; */
+  width: 10px;
   margin-left: 2px;
 }
 
