@@ -123,6 +123,7 @@ body {
 
 .logo {
   size: 5%;
+  width: 5%;
 }
 
 @media only screen and (max-width: 900px) {
