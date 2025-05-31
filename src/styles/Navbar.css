@@ -58,7 +58,7 @@ body {
   color: black;
   text-decoration: none;
   font-weight: 500;
-  padding-bottom: 1px;
+  padding-bottom: 4px;
 }
 
 .navbar .active-link {
@@ -70,7 +70,7 @@ body {
   content: '';
   display: block;
   border-bottom: 3px solid black;
-  width: 50%;
+  width: 100%;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -134,12 +134,11 @@ body {
     text-align: center;
     /* padding-left: 50px; */
   }
-  /* .navbar .active-link::after {
+  .navbar .active-link::after {
     border-bottom: 3px solid black;
     width: 50%;
     left: 25%; 
-    bottom: 1px;
-  } */
+  }
 
   .leftSide h1 {
     display: none;
