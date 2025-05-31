@@ -66,7 +66,7 @@ body {
   position: relative;
 }
 
-.rightside .active-link::after {
+.active-link::after {
   content: '';
   display: block;
   width: 100%;
