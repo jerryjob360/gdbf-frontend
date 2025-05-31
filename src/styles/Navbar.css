@@ -108,7 +108,7 @@ body {
 
 .navbar #open .hiddenLinks{
   display: inherit;
-  margin-left: 30px;
+  margin-left: 10px;
 }
 
 
@@ -160,12 +160,12 @@ body {
   .navbar {
     width: 100%;
   }
-  .leftSide {
+  /* .leftSide {
     width: 50%;
   }
   .rightSide {
     width: 50%;
-  }
+  } */
   .logoImg {
     width: 40px;
     height: auto;
