@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
-import logo from '../assets/gdfb_logo-nobg.png';
+import React, { useState, useEffect } from 'react';
+import logoBg from '../assets/gdfb_logo-nobg.png';
+import logoSm from '../assets/logo_small.png';
 import { NavLink } from 'react-router-dom';
 import ReorderIcon from '@mui/icons-material/Reorder';
 import '../styles/Navbar.css';
@@ -20,11 +21,26 @@ function Navbar() {
 
 
 
+    const [isMobile, setIsMobile] = useState(window.innerWidth <= 900);
+
+    useEffect(()=> {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth <= 900);
+        };
+        handleResize();     //Ooptional
+
+        window.addEventListener('resizze', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+        
+    }, []);
+
+
+
     return (
         <Headroom>
             <div className='navbar'>
                 <div className='leftSide' id={openLinks ? "open" : "close"} >
-                    <img src={logo} className='logo' />
+                    <img src={isMobile ? logoSm : logoBg} alt="Company Logo" className='logoImg'/>
                     <h1>GDFB</h1>
                     <div className='hiddenLinks'>
                         <NavLink

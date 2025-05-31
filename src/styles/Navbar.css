@@ -121,9 +121,9 @@ body {
   margin: 5px;
 }
 
-.logo {
-  size: 5%;
-  width: 5%;
+.logoImg {
+  width: 180px;
+  height: auto;
 }
 
 @media only screen and (max-width: 900px) {
@@ -143,14 +143,19 @@ body {
   .leftSide h1 {
     display: none;
   }
+
+  .logoImg {
+    width: 120px;
+  }
+
 }
 
 
-/* @media only screen and (min-width: 600px) {
-  .navbar .leftSide a {
-    display: none;
+@media only screen and (max-width: 600px) {
+  .logoImg {
+    width: 80px;
   }
-} */
+}
 
 
 @media only screen and (max-width: 1029px) {
