@@ -179,7 +179,7 @@ body {
   }
 
   .google-translate-container {
-    min-width: 20px;
+    min-width: 30px;
   }
 }
 
@@ -189,13 +189,16 @@ body {
   }
 
   .google-translate-container {
-    min-width: 10px;
+    min-width: 20px;
   }
 
   .navbar #open .hiddenLinks{
     margin-left: 5px;
+    justify-content: left;
   }
-  
+  .active-link {
+    margin-right: 2px;
+  }
   
 }
 
