@@ -136,6 +136,8 @@
 @media only screen and (max-width: 900px) {
   .aboutBottom p{
     width: 80%;
+    text-align: center;
+    justify-content: center;
   }
 
   .missionVision {
