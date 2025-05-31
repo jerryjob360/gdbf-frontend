@@ -176,6 +176,8 @@ body {
 
   .navbar #open .hiddenLinks{
     margin-left: 1px;
+    align-items: left;
+    justify-content: left;
   }
 
   .google-translate-container {
@@ -195,6 +197,7 @@ body {
   .navbar #open .hiddenLinks{
     margin-left: 5px;
     justify-content: left;
+    align-items: left;
   }
   
   
