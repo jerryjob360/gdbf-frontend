@@ -56,9 +56,9 @@ function Footer() {
         <div className='socialMedia'>
           <h2>CONTACT US</h2>
           <div className='socialLinks'>
-            <a href='https://www.instagram.com/sbec_limited/'><InstagramIcon /></a>
+            <a href='https://www.gdbf.or.tz'><InstagramIcon /></a>
 
-            <a href='https://www.facebook.com/profile.php?id=61550835304194'><FacebookIcon /></a>
+            <a href='https://www.gdbf.or.tz'><FacebookIcon /></a>
 
             <TwitterIcon />
             <Link to='/contact'><EmailIcon /></Link>

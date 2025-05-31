@@ -84,10 +84,10 @@ function Contact() {
       <div className='social'>
         <h2>Or connect with us<br />on social networks.. </h2>
         <p>
-          <a href='https://www.instagram.com/sbec_limited/'><InstagramIcon />Instagram</a>
+          <a href='https://www.gdbf.or.tz'><InstagramIcon />Instagram</a>
         </p>
         <p>
-          <a href='https://www.facebook.com/profile.php?id=61550835304194'><FacebookIcon />Facebook</a>
+          <a href='https://www.gdbf.or.tz'><FacebookIcon />Facebook</a>
         </p>
       </div>
 
