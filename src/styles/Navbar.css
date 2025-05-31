@@ -175,7 +175,7 @@ body {
   }
 
   .navbar #open .hiddenLinks{
-    margin-left: 1px;
+    margin-left: 5px;
     align-items: left;
     justify-content: left;
   }
