@@ -148,6 +148,10 @@ body {
     width: 120px;
     height: auto;
   }
+  
+  .google-translate-container {
+    min-width: 80px;
+  }
 
 }
 
@@ -160,12 +164,25 @@ body {
   .navbar .rightSide Link {
     font-size: x-small;
   }
+
+  .navbar #open .hiddenLinks{
+    margin-left: 10px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
   .navbar .rightSide Link {
     font-size: xx-small;
   }
+
+  .google-translate-container {
+    min-width: 20px;
+  }
+
+  .navbar #open .hiddenLinks{
+    margin-left: 5px;
+  }
+  
   
 }
 
