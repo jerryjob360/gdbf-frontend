@@ -226,9 +226,9 @@ body {
   .hiddenLinks {
     display: none;
   }
-  .navbar .leftSide a {
+  /* .navbar .leftSide a {
     display: none;
-  }
+  } */
   .navbar #open img {
     display: inherit ;
   }
