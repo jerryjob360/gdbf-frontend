@@ -160,12 +160,12 @@ body {
   .navbar {
     width: 100%;
   }
-  /* .leftSide {
+  .leftSide {
     width: 50%;
   }
   .rightSide {
     width: 50%;
-  } */
+  }
   .logoImg {
     width: 40px;
     height: auto;
@@ -175,7 +175,7 @@ body {
   }
 
   .navbar #open .hiddenLinks{
-    margin-left: 10px;
+    margin-left: 1px;
   }
 
   .google-translate-container {
