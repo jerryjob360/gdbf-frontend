@@ -101,7 +101,11 @@
         height: 45px;
         text-align: center;
         /* width: 250px; */
-        /* border-color: transparent; */
+        border-color: #e8f1ff;
+      }
+
+      .bottom input, Field, textarea {
+        background-color: #e8f1ff;
       }
 
       /* .form button{
