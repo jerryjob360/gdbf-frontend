@@ -134,12 +134,12 @@ body {
     text-align: center;
     /* padding-left: 50px; */
   }
-  .navbar .active-link::after {
+  /* .navbar .active-link::after {
     border-bottom: 3px solid black;
     width: 50%;
     left: 25%; 
     bottom: 1px;
-  }
+  } */
 
   .leftSide h1 {
     display: none;
