@@ -72,7 +72,7 @@ function Navbar() {
                             [
                                 isActive? 'active-link':''
                             ]}
-                        > About </NavLink>
+                        > About Us</NavLink>
                         <NavLink
                             to='/contact'
                             className={({ isActive }) => 

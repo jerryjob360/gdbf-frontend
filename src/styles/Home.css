@@ -104,10 +104,10 @@
     height: auto;
     width: auto;
   }
-  .headerContainer h1,
+  /* .headerContainer h1,
   .headerContainer p {
     margin-bottom: 25%;
-  }
+  } */
 
   .headerCont {
     margin-top: 20%;
