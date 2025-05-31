@@ -162,7 +162,7 @@ body {
   }
   .leftSide {
     width: 75%;
-    padding-left: 7.5%;
+    padding-left: 8%;
   }
   .rightSide {
     width: 25%;
@@ -200,7 +200,7 @@ body {
   }
 
   .navbar .leftSide {
-    padding-left: 7.5%;
+    padding-left: 15%;
   }
 
   .navbar #open .hiddenLinks{
