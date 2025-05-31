@@ -162,6 +162,7 @@ body {
   }
   .leftSide {
     width: 75%;
+    padding-left: 7.5%;
   }
   .rightSide {
     width: 25%;
@@ -196,6 +197,10 @@ body {
 
   .google-translate-container {
     min-width: 20px;
+  }
+
+  .navbar .leftSide {
+    padding-left: 7.5%;
   }
 
   .navbar #open .hiddenLinks{
