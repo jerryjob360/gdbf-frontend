@@ -54,7 +54,7 @@ body {
 }
 
 
-.navbar a {
+.rightSide a {
   color: black;
   text-decoration: none;
   font-weight: 500;
@@ -131,8 +131,8 @@ body {
     font-size: small;
   }
   .navbar .leftSide {
-    text-align: center;
-    padding-left: 50px;
+    /* text-align: center; */
+    /* padding-left: 50px; */
   }
   .navbar .active-link::after {
     border-bottom: 3px solid black;
