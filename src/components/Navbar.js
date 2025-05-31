@@ -27,9 +27,9 @@ function Navbar() {
         const handleResize = () => {
             setIsMobile(window.innerWidth <= 900);
         };
-        handleResize();     //Ooptional
+        handleResize();     //Optional
 
-        window.addEventListener('resizze', handleResize);
+        window.addEventListener('resize', handleResize);
         return () => window.removeEventListener('resize', handleResize);
         
     }, []);
@@ -41,7 +41,7 @@ function Navbar() {
             <div className='navbar'>
                 <div className='leftSide' id={openLinks ? "open" : "close"} >
                     <img src={isMobile ? logoSm : logoBg} alt="Company Logo" className='logoImg'/>
-                    <h1>GDFB</h1>
+                    {/* <h1>GDFB</h1> */}
                     <div className='hiddenLinks'>
                         <NavLink
                             to='/'
