@@ -42,10 +42,7 @@ function Navbar() {
                 <div className='leftSide' id={openLinks ? "open" : "close"} >
                     <NavLink
                                 to='/'
-                                className={({ isActive }) => 
-                                [
-                                    isActive? 'active-link':''
-                                ]}        
+                                className='logoLink'      
                             > 
                             <img src={isMobile ? logoSm : logoBg} alt="Company Logo" className='logoImg'/>
                     </NavLink>
