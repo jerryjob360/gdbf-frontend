@@ -131,8 +131,8 @@ body {
     font-size: small;
   }
   .navbar .leftSide {
-    /* text-align: center; */
-    /* padding-left: 50px; */
+    text-align: center;
+    padding-left: 50px;
   }
   .navbar .active-link::after {
     border-bottom: 3px solid black;
@@ -196,9 +196,7 @@ body {
     margin-left: 5px;
     justify-content: left;
   }
-  .active-link {
-    margin-right: 2px;
-  }
+  
   
 }
 
@@ -226,9 +224,9 @@ body {
   .hiddenLinks {
     display: none;
   }
-  /* .navbar .leftSide a {
+  .navbar .leftSide a {
     display: none;
-  } */
+  }
   .navbar #open img {
     display: inherit ;
   }
