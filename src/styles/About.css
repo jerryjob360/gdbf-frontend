@@ -137,13 +137,11 @@
   .aboutBottom p{
     width: 80%;
     text-align: center;
-    justify-items: center;
   }
 
   .missionVision {
     display: flex;
     flex-direction: column;
-    text-align: center;
     align-items: center;
     /* width: 75%; */
     /* margin: 15%; */
