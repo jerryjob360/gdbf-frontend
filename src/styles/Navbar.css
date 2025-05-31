@@ -69,14 +69,11 @@ body {
 .active-link::after {
   content: '';
   display: block;
+  border-bottom: 3px solid black;
   width: 100%;
   position: absolute;
-  left: 0;
-}
-
-.rightside .active-link::after {
   bottom: 0;
-  border-bottom: 3px solid black;
+  left: 0;
 }
 
 .navbar .rightSide button {
