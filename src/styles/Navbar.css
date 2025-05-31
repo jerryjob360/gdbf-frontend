@@ -118,7 +118,7 @@ body {
 
 .navbar #open a {
   /* width: 70px; */
-  margin: 1px;
+  margin-left: 2px;
 }
 
 .logoImg {
@@ -161,10 +161,10 @@ body {
     width: 100%;
   }
   .leftSide {
-    width: 50%;
+    width: 75%;
   }
   .rightSide {
-    width: 50%;
+    width: 25%;
   }
   .logoImg {
     width: 40px;
