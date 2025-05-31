@@ -180,6 +180,10 @@ body {
     justify-content: left;
   }
 
+  .hiddenLinks a {
+
+  }
+
   .google-translate-container {
     min-width: 30px;
   }
@@ -227,9 +231,9 @@ body {
   .hiddenLinks {
     display: none;
   }
-  .navbar .leftSide a {
+  /* .navbar .leftSide a {
     display: none;
-  }
+  } */
   .navbar #open img {
     display: inherit ;
   }
