@@ -66,14 +66,17 @@ body {
   position: relative;
 }
 
-.rightSide .active-link::after {
+.rightside .active-link::after {
   content: '';
   display: block;
-  border-bottom: 3px solid black;
   width: 100%;
   position: absolute;
-  bottom: 0;
   left: 0;
+}
+
+.rightside .active-link::after {
+  bottom: 0;
+  border-bottom: 3px solid black;
 }
 
 .navbar .rightSide button {
