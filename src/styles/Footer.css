@@ -115,13 +115,13 @@
     display: none;
   }
   .socialMedia {
-    /* margin-left: 2%;  */
+    width: 50%;
     display: grid; 
-    padding-right: 12.5%; 
+    /* padding-right: 12.5%;  */
   }
   .socialLinks{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    /* flex-direction: row; */
     grid-template-columns: 1fr 1fr;
   }
   .events{
