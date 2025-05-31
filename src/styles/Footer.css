@@ -115,9 +115,9 @@
     display: none;
   }
   .socialMedia {
-    /* margin-left: 2%; */
-    /* display: grid; */
-    /* padding-right: 12.5%; */
+    /* margin-left: 2%;  */
+    display: grid; 
+    padding-right: 12.5%; 
   }
   .socialLinks{
     display: flex;
