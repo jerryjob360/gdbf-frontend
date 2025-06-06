@@ -69,11 +69,10 @@
     font-size: larger;
   }
 
-  .form field {
-    background-color: #65cafa;
-    color: black;
+  .bottom input, Field, textarea {
+    background-color: #e8f1ff;
   }
-
+  
   @media only screen and (max-width: 900px) {
     .activities{
       height: auto;
@@ -104,9 +103,6 @@
         border-color: #e8f1ff;
       }
 
-      .bottom input, Field, textarea {
-        background-color: #e8f1ff;
-      }
 
       /* .form button{
         
