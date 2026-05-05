@@ -2,13 +2,13 @@ import React, { useEffect, useState } from 'react'
 import { MenuList } from '../helpers/MenuList'
 import MenuItem from '../components/MenuItem';
 import '../styles/Menu.css'
-import { Link, useNavigate } from 'react-router-dom';
+import {  useNavigate } from 'react-router-dom';
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
-import contactImg from '../assets/new-message.jpg'
-import BannerImage from '../assets/leaves mini.jpeg';
+// import contactImg from '../assets/new-message.jpg'
+// import BannerImage from '../assets/leaves mini.jpeg';
 import { useStateContext } from '../contexts/contextProvider';
-import phone_sign from "../assets/phone_bluey.jpg";
+// import phone_sign from "../assets/phone_bluey.jpg";
 
 function Services() {
 
@@ -29,7 +29,7 @@ function Services() {
   };
   
     
-  const { currentUser, userToken, setcurrentUser, setuserToken } = useStateContext();
+  const { currentUser, setcurrentUser } = useStateContext();
 
 
   const [admin, setAdmin] = useState(false);
@@ -37,7 +37,7 @@ function Services() {
     if (currentUser) {
       setAdmin(true) 
     }
-  }, [])
+  }, [currentUser]);
   console.log(admin);
 
   const nav = useNavigate();

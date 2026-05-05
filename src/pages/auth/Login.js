@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import { BrowserRouter, Navigate, Redirect, useNavigate } from 'react-router-dom';
-import Activity from '../Activity';
+import { useNavigate } from 'react-router-dom';
+// import Activity from '../Activity';
 import { useStateContext } from '../../contexts/contextProvider';
 import '../../styles/login.css'
 
@@ -10,7 +10,7 @@ function Login() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   // const [isLoggedIn, setLoggedIn] = useState(false);
-  const { currentUser, userToken, setcurrentUser, setuserToken } = useStateContext();
+  const { currentUser, setcurrentUser, setuserToken } = useStateContext();
 
   const nav = useNavigate();
   useEffect(() => {
@@ -19,7 +19,7 @@ function Login() {
       console.log(currentUser)
       nav('/activities');
     }
-  }, [])
+  }, [currentUser, nav]); 
 
   const login = () => {
     const credentials = {

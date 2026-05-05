@@ -1,24 +1,24 @@
 import React, { useEffect, useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-import Services from './Services';
-import BannerImage from '../assets/leaves Bg.jpeg';
+import { Link } from 'react-router-dom';
+// import Services from './Services';
+// import BannerImage from '../assets/leaves Bg.jpeg';
 import '../styles/Home.css'
 import { useStateContext } from '../contexts/contextProvider';
 
 
 function Home() {
 
-  const { currentUser, userToken, setcurrentUser, setuserToken } = useStateContext();
+  const { currentUser, setcurrentUser } = useStateContext();
 
   const [admin, setAdmin] = useState(false);
   useEffect(() => {
     if (currentUser) {
       setAdmin(true) 
     }
-  }, []);
+  }, [currentUser]);
   console.log(admin);
 
-  const nav = useNavigate();
+  // const nav = useNavigate();
   const logOut = () => {
     setcurrentUser(null);
     localStorage.clear();

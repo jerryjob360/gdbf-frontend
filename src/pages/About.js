@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react'
-import abtimg from '../assets/leaves Bg.jpeg'
+// import abtimg from '../assets/leaves Bg.jpeg'
 import '../styles/About.css'
 import { Link, useNavigate } from 'react-router-dom'
 import { useStateContext } from '../contexts/contextProvider';
 
 function About() {
   
-  const { currentUser, userToken, setcurrentUser, setuserToken } = useStateContext();
+  const { currentUser, setcurrentUser } = useStateContext();
 
 
   const [admin, setAdmin] = useState(false);
@@ -14,7 +14,7 @@ function About() {
     if(currentUser){
       setAdmin(true)
     }
-  }, [])
+  }, [currentUser])
 
   const nav = useNavigate();
   const logOut = () => {

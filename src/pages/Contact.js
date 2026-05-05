@@ -1,12 +1,12 @@
 import React, { useEffect, useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import bg from '../assets/contact bg.jpeg'
+// import bg from '../assets/contact bg.jpeg'
 import '../styles/contact.css';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import TwitterIcon from '@mui/icons-material/Twitter'
+// import TwitterIcon from '@mui/icons-material/Twitter'
 import FacebookIcon from '@mui/icons-material/Facebook'
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import EmailIcon from '@mui/icons-material/Email';
+// import LinkedInIcon from '@mui/icons-material/LinkedIn';
+// import EmailIcon from '@mui/icons-material/Email';
 import { useNavigate } from 'react-router-dom';
 import { useStateContext } from '../contexts/contextProvider';
 
@@ -28,7 +28,7 @@ function Contact() {
     e.target.reset();
   };
       
-  const { currentUser, userToken, setcurrentUser, setuserToken } = useStateContext();
+  const { currentUser, setcurrentUser } = useStateContext();
 
 
   const [ admin, setAdmin ] = useState(false);
@@ -37,7 +37,7 @@ function Contact() {
     (currentUser){
       setAdmin(true)
     }
-  }, [])
+  }, [currentUser])
 
   const nav = useNavigate();
   const logOut = () => {

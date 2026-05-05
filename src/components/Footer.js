@@ -2,13 +2,13 @@ import React, { useEffect, useState } from 'react';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter'
 import FacebookIcon from '@mui/icons-material/Facebook'
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
+// import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
 import '../styles/Footer.css';
 import { Link } from 'react-router-dom';
 import api from '../utils/axios';
-import AllPosts from '../pages/AllPosts';
-import About from '../pages/About';
+// import AllPosts from '../pages/AllPosts';
+// import About from '../pages/About';
 
 function Footer() {
 
