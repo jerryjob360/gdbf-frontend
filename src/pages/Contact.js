@@ -17,7 +17,7 @@ function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_j0cdbvp', 'template_7mzjf9n', form.current, 'UH5D5JkxBpExXi-ub')
+    emailjs.sendForm('service_j0cdbvp', 'template_4t8w25s', form.current, 'cBJ0i_aVHr6_F-aIt')
       .then((result) => {
         console.log(result.text);
         alert('Success!')
@@ -67,10 +67,10 @@ function Contact() {
           className='form'>
           <h3>Leave us a<br />Message here...</h3>
           <input
-            name='user_name'
+            name='from_name'
             placeholder='Enter your name here' required />
           <input
-            name='user_email'
+            name='from_email'
             placeholder='Enter your email address here' required />
 
           <textarea
