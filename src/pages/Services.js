@@ -69,12 +69,11 @@ function Services() {
       <div className='mid'>
         <div className='serviceText'>
           <h1>What we do</h1>
-          <p>We work collaboratively with local, regional, national and international community companies and 
-              authorities aim at emphasizes the importance of integrating environmental health with social and 
-              economic factors to create resilient communities capable of adapting to changes and sustainable 
-              challenges, Through ensure  grassroots community’s members have access to information, knowledge 
-              and resources timely for use in their development processes similarly implementing various 
-              community and development projects in different regions of Tanzania.
+          <p> •	We strive to strengthen community resilience to climate change through climate adaptation measures, early warning systems, disaster risk reduction, ecosystem restoration, and sustainable environmental practices.
+              •	We work to advance the integration, documentation, and application of Indigenous knowledge and scientific research to address climate, environmental, health, and development challenges.
+              •	We promote environmental health and sustainable livelihoods through awareness, clean energy solutions, climate-sensitive practices, and responsible natural resource management.
+              •	We enhance organizational effectiveness and sustainability through good governance, strategic partnerships, capacity development, and resource mobilization.
+
             </p>
           {/* <p>
             We believe and invest in various projects that are helpful economically and environmentally.
