@@ -49,14 +49,11 @@ function About() {
           
           <p className='vision'>
             <h4>Vision</h4>
-            To empower community on achieving sustainable livelihood through Environmental, Health, Safety, Social for 
-            Economic development.
+            To create resilient communities that bridge Indigenous knowledge and scientific innovation to improve livelihoods and safeguard ecosystems
           </p>
           <p className='mission'>
             <h4>Mission</h4>
-            To foster a resilient community by enhance capacity access to resources, Knowledge, that promote sustainable 
-            livelihoods while prioritizing environmental stewardship, health and safety improvement, social equity, and 
-            economic growth.
+            To build resilient communities that live in harmony with nature by advancing sustainable climate action through the integration of scientific and Indigenous knowledge to improve livelihoods and safeguard ecosystems.
           </p>
         </div>
 
