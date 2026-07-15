@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 // import Services from './Services';
-// import BannerImage from '../assets/leaves Bg.jpeg';
+import BannerImage from '../assets/leaves Bg.jpeg';
 import '../styles/Home.css'
 import { useStateContext } from '../contexts/contextProvider';
 
@@ -39,6 +39,18 @@ function Home() {
         <button className='logOutBtn' onClick={logOut}>Log out</button>
       </div>
       <div className='home'>
+        <div className='homeTop'>
+          <div className='homeText'>
+            <h1>Welcome to GDFB</h1>
+            <p>Empowering communities for a sustainable future.</p>
+            <Link to='/Services'>
+              <button>Our Services</button>
+            </Link>
+          </div>
+          <div className='homeImage'>
+            <img src={BannerImage} alt="Banner" />
+          </div>
+        </div>
       
       <div className="headerContainer" >
         <div className='header'>
