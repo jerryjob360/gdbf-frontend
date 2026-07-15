@@ -13,7 +13,8 @@ function Activity() {
   const initialValues = {
     title: "",
     body: "",
-    image: null
+    image: null,
+    eventDate: "",
   };
 
   const initialValuesAd = {
@@ -28,6 +29,7 @@ function Activity() {
     formData.append("title", data.title);
     formData.append("body", data.body);
     formData.append("image", data.image);
+    formData.append("eventDate", data.eventDate);
     // console.log(data);
     api.post(`/activity`, formData,
       {
@@ -118,6 +120,14 @@ function Activity() {
                 onChange={(event) => {
                   setFieldValue("image", event.currentTarget.files[0]);
                 }}
+              />
+
+              <input
+                type="date"
+                name="eventDate"
+                placeholder="Event Date"
+                onChange={handleChange}
+                onBlur={handleBlur}
               />
 
               <button type='submit'>Post Event</button>

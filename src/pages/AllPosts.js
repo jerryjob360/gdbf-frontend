@@ -27,7 +27,7 @@ function AllPosts() {
   
     const handleEdit = (post) => {
       setEditPostId(post.id);
-      setEditedData({ title: post.title, body: post.body, image: post.image });
+      setEditedData({ title: post.title, body: post.body, image: post.image, eventDate: post.eventDate });
     };
   
   
@@ -39,6 +39,8 @@ function AllPosts() {
       if (editedData.image instanceof File) {
         formData.append('image', editedData.image);
       }
+
+      formData.append('eventDate', editedData.eventDate);
 
       api.put(`/activity/${id}`, formData, {
         headers: { 'Content-Type' : 'multipart/form-data' }
@@ -95,7 +97,7 @@ function AllPosts() {
 
       {allPosts.map((value, key) => {
 
-        const dt = new Date(value.createdAt).toDateString();
+        const dt = new Date(value.eventDate).toDateString();
         return <div className='allPosts'>
           {/* Title */}
           {editPostId === value.id ? (

@@ -38,7 +38,7 @@ function Footer() {
           <h2>RECENT EVENTS</h2>
           {listOfActivities.slice(-2).map((value, key) => {
 
-            const date = value.createdAt;
+            const date = value.eventDate;
 
             const dt = formattedDate(date);
             return <div className='evnt'>
