@@ -174,7 +174,18 @@ function AllPosts() {
             />
           )
         }              
-        <p>{dt}</p>
+        <p>
+        {editPostId === value.id ? (
+              <textarea
+              className='edit-date-textarea'
+              name='eventDate'
+              value={editedData.eventDate}
+              onChange={handleInputChange}
+              />
+          ) : (
+            <p className='event-date'>{value.eventDate}</p>
+          )}
+          </p>
         </div>
       })
     }
