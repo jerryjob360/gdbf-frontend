@@ -183,7 +183,7 @@ function AllPosts() {
               onChange={handleInputChange}
               />
           ) : (
-            <p className='event-date'>{value.eventDate}</p>
+            <p className='event-date'>{dt}</p>
           )}
           </p>
         </div>
