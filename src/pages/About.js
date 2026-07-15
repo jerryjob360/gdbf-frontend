@@ -34,8 +34,8 @@ function About() {
       <div className='aboutTop'>
         <h1>About us</h1>
         <div className='homeImage'>
-                    <img src={BannerImage} alt="Banner" />
-                  </div>
+           <img src={BannerImage} alt="Banner" />
+        </div>
       </div>
       <div className='aboutBottom'>
 
