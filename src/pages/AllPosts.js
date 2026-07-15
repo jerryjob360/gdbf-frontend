@@ -178,8 +178,9 @@ function AllPosts() {
         {editPostId === value.id ? (
               <textarea
               className='edit-date-textarea'
+              type='date'
               name='eventDate'
-              value={editedData.eventDate}
+              value={editedData.eventDate || ""}
               onChange={handleInputChange}
               />
           ) : (
