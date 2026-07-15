@@ -97,7 +97,7 @@ function AllPosts() {
 
       {allPosts.map((value, key) => {
 
-        const dt = new Date(value.eventDate).toDateString();
+        // const dt = new Date(value.eventDate).toDateString();
         return <div className='allPosts'>
           {/* Title */}
           {editPostId === value.id ? (
@@ -183,7 +183,7 @@ function AllPosts() {
               onChange={handleInputChange}
               />
           ) : (
-            <p className='event-date'>{dt}</p>
+            <p className='event-date'>{value.eventDate}</p>
           )}
           </p>
         </div>
