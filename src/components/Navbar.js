@@ -71,12 +71,12 @@ function Navbar() {
                             ]}
                         > About Us</NavLink>
                         <NavLink
-                            to='/contact'
+                            to='/Allposts'
                             className={({ isActive }) => 
                             [
                                 isActive? 'active-link':''
                             ]}
-                        > Contact </NavLink>
+                        > Events </NavLink>
                         <NavLink
                             to='/contact'
                             className={({ isActive }) => 
