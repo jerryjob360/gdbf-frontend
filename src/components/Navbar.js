@@ -80,7 +80,7 @@ function Navbar() {
                     </div>
                 </div>
                 <div className='rightSide'>
-                    <div id="google_translate_element" className="google-translate-container"></div>
+                    {/* <div id="google_translate_element" className="google-translate-container"></div> */}
                     <NavLink
                         to='/'
                         className={({ isActive }) => 
