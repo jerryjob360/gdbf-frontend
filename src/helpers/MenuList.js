@@ -1,6 +1,6 @@
 import forest from "../assets/forest.jpg";
 import forest_day from "../assets/forest_day.jpg";
-import reforestation from "../assets/reforestation.jpg";
+// import reforestation from "../assets/reforestation.jpg";
 // import reforestation_campaign from "../assets/reforestation_campaign.jpg";
 import seminar_member from "../assets/seminar_member.jpg";
 import env_health from "../assets/environmental_health_1.jpeg";
@@ -39,11 +39,11 @@ export const MenuList = [
     image: forest_day,
     description: 'Enhancing climate change adaptability and providing resources for orphans, elders, and disabled groups',
   },
-  {
-    name: "Road Safety Awareness",
-    image: reforestation,
-    description: 'Road Safety Awareness: Educating communities near construction sites, as seen in our projects with STECOL and Sinohydro, to ensure safer environments.',
-  },
+  // {
+  //   name: "Road Safety Awareness",
+  //   image: reforestation,
+  //   description: 'Road Safety Awareness: Educating communities near construction sites, as seen in our projects with STECOL and Sinohydro, to ensure safer environments.',
+  // },
   // {
   //   name: "WASH Programs",
   //   image: reforestation_campaign,
