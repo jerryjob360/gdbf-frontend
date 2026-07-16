@@ -69,12 +69,12 @@ function Services() {
       <div className='mid'>
         <div className='serviceText'>
           <h1>What we do</h1>
-          <p> •	We strive to strengthen community resilience to climate change through climate adaptation measures, early warning systems, disaster risk reduction, ecosystem restoration, and sustainable environmental practices.
+          {/* <p> •	We strive to strengthen community resilience to climate change through climate adaptation measures, early warning systems, disaster risk reduction, ecosystem restoration, and sustainable environmental practices.
               <p>•	We work to advance the integration, documentation, and application of Indigenous knowledge and scientific research to address climate, environmental, health, and development challenges.</p>
               <p>•	We promote environmental health and sustainable livelihoods through awareness, clean energy solutions, climate-sensitive practices, and responsible natural resource management.</p>
               <p>•	We enhance organizational effectiveness and sustainability through good governance, strategic partnerships, capacity development, and resource mobilization.</p>
 
-            </p>
+            </p> */}
           {/* <p>
             We believe and invest in various projects that are helpful economically and environmentally.
           </p> */}
