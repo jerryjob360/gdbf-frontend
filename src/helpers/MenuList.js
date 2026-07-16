@@ -7,6 +7,26 @@ import seminar_member from "../assets/seminar_member.jpg";
 
 export const MenuList = [
   {
+    name: "",
+    image: seminar_member,
+    description: 'We strive to strengthen community resilience to climate change through climate adaptation measures, early warning systems, disaster risk reduction, ecosystem restoration, and sustainable environmental practices.',
+  },
+  {
+    name: "",
+    image: seminar_member,
+    description: 'We work to advance the integration, documentation, and application of Indigenous knowledge and scientific research to address climate, environmental, health, and development challenges.',
+  },
+  {
+    name: "",
+    image: seminar_member,
+    description: 'We promote environmental health and sustainable livelihoods through awareness, clean energy solutions, climate-sensitive practices, and responsible natural resource management.',
+  },
+  {
+    name: "",
+    image: seminar_member,
+    description: 'We enhance organizational effectiveness and sustainability through good governance, strategic partnerships, capacity development, and resource mobilization.',
+  },
+  {
     name: "Environmental Conservation",
     image: forest,
     description: 'Leading tree planting and waste segregation initiatives, like our work at Kisewe Primary School, to foster sustainability.',
