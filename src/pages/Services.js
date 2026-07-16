@@ -80,10 +80,10 @@ function Services() {
           </p> */}
         </div>
 
-        <div className='menuList'>
+      <div className='menuList'>
           {MenuList.map((menuItem, key) => {
             return (
-              <MenuItem
+              <MenuItem className="menuItem"
                 key={key}
                 image={menuItem.image}
                 name={menuItem.name}
