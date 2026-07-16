@@ -4,8 +4,8 @@ import reforestation from "../assets/reforestation.jpg";
 import reforestation_campaign from "../assets/reforestation_campaign.jpg";
 import seminar_member from "../assets/seminar_member.jpg";
 import env_health from "../assets/environmental_health_1.jpeg";
-import resilience from "../assets/resilience_1.jpg";
-import indigineous from "../assets/indigenous_1.jpg";
+import resilience from "../assets/resilience_1.jpeg";
+import indigineous from "../assets/indigenous_1.jpeg";
 
 
 export const MenuList = [
