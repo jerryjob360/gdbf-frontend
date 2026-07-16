@@ -44,14 +44,14 @@ export const MenuList = [
     image: reforestation,
     description: 'Road Safety Awareness: Educating communities near construction sites, as seen in our projects with STECOL and Sinohydro, to ensure safer environments.',
   },
-  {
-    name: "WASH Programs",
-    image: reforestation_campaign,
-    description: 'Promoting health and hygiene through water, sanitation, and hygiene initiatives. Ready to collaborate? Reach out to see how GDFB can support your community’s growth!',
-  },
-  {
-    name: "Health and Safety Education",
-    image: seminar_member,
-    description: 'Conducting HIV/AIDS and STI awareness campaigns, including pre- and post-test counseling, to promote healthier communities.',
-  },
+  // {
+  //   name: "WASH Programs",
+  //   image: reforestation_campaign,
+  //   description: 'Promoting health and hygiene through water, sanitation, and hygiene initiatives. Ready to collaborate? Reach out to see how GDFB can support your community’s growth!',
+  // },
+  // {
+  //   name: "Health and Safety Education",
+  //   image: seminar_member,
+  //   description: 'Conducting HIV/AIDS and STI awareness campaigns, including pre- and post-test counseling, to promote healthier communities.',
+  // },
 ];
