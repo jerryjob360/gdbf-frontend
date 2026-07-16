@@ -2,7 +2,7 @@
 // import forest_day from "../assets/forest_day.jpg";
 // import reforestation from "../assets/reforestation.jpg";
 // import reforestation_campaign from "../assets/reforestation_campaign.jpg";
-import organizational_effectiveness from "../assets/organizational_effectiveness_1.jpeg";
+import organizational_effectiveness from "../assets/organizational_effectiveness.jpeg";
 import env_health from "../assets/environmental_health_1.jpeg";
 import resilience from "../assets/resilience_1.jpeg";
 import indigineous from "../assets/indigenous_1.jpeg";
