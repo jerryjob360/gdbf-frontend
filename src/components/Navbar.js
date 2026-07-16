@@ -77,6 +77,13 @@ function Navbar() {
                                 isActive? 'active-link':''
                             ]}
                         > Contact </NavLink>
+                        <NavLink
+                            to='/contact'
+                            className={({ isActive }) => 
+                            [
+                                isActive? 'active-link':''
+                            ]}
+                        > Contact </NavLink>
                     </div>
                 </div>
                 <div className='rightSide'>

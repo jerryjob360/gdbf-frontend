@@ -29,16 +29,16 @@ export const MenuList = [
     image: seminar_member,
     description: 'We enhance organizational effectiveness and sustainability through good governance, strategic partnerships, capacity development, and resource mobilization.',
   },
-  {
-    name: "Environmental Conservation",
-    image: forest,
-    description: 'Leading tree planting and waste segregation initiatives, like our work at Kisewe Primary School, to foster sustainability.',
-  },
-  {
-    name: "Community Resilience Building",
-    image: forest_day,
-    description: 'Enhancing climate change adaptability and providing resources for orphans, elders, and disabled groups',
-  },
+  // {
+  //   name: "Environmental Conservation",
+  //   image: forest,
+  //   description: 'Leading tree planting and waste segregation initiatives, like our work at Kisewe Primary School, to foster sustainability.',
+  // },
+  // {
+  //   name: "Community Resilience Building",
+  //   image: forest_day,
+  //   description: 'Enhancing climate change adaptability and providing resources for orphans, elders, and disabled groups',
+  // },
   // {
   //   name: "Road Safety Awareness",
   //   image: reforestation,

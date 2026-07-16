@@ -52,7 +52,7 @@ function Home() {
           </div>
         </div>
       
-      <div className="headerContainer" >
+      {/* <div className="headerContainer" >
         <div className='header'>
           <h1>Global Development Friends Builders</h1>
         </div>
@@ -64,7 +64,7 @@ function Home() {
           
         </div>
 
-      </div>
+      </div> */}
     </div>
     </div>
     
