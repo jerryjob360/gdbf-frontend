@@ -3,6 +3,7 @@ import forest_day from "../assets/forest_day.jpg";
 import reforestation from "../assets/reforestation.jpg";
 import reforestation_campaign from "../assets/reforestation_campaign.jpg";
 import seminar_member from "../assets/seminar_member.jpg";
+import env_health from "../assets/environmental_health.jpg";
 
 
 export const MenuList = [
@@ -18,7 +19,7 @@ export const MenuList = [
   },
   {
     name: "",
-    image: seminar_member,
+    image: env_health,
     description: 'We promote environmental health and sustainable livelihoods through awareness, clean energy solutions, climate-sensitive practices, and responsible natural resource management.',
   },
   {
