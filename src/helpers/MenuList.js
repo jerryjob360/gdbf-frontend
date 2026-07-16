@@ -4,17 +4,19 @@ import reforestation from "../assets/reforestation.jpg";
 import reforestation_campaign from "../assets/reforestation_campaign.jpg";
 import seminar_member from "../assets/seminar_member.jpg";
 import env_health from "../assets/environmental_health_1.jpeg";
+import resilience from "../assets/resilience_1.jpg";
+import indigineous from "../assets/indigenous_1.jpg";
 
 
 export const MenuList = [
   {
     name: "",
-    image: seminar_member,
+    image: resilience,
     description: 'We strive to strengthen community resilience to climate change through climate adaptation measures, early warning systems, disaster risk reduction, ecosystem restoration, and sustainable environmental practices.',
   },
   {
     name: "",
-    image: seminar_member,
+    image: indigineous,
     description: 'We work to advance the integration, documentation, and application of Indigenous knowledge and scientific research to address climate, environmental, health, and development challenges.',
   },
   {
