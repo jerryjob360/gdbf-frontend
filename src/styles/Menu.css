@@ -92,6 +92,9 @@
   display: block;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .menuItem:hover {
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
