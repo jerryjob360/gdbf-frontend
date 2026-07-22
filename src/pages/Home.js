@@ -52,19 +52,19 @@ function Home() {
           </div>
         </div>
       
-      <div className="headerContainer" >
+      {/* <div className="headerContainer" >
         <div className='header'>
           <h1>Global Development Friends Builders</h1>
         </div>
         <div className='headerCont'>
           <p>We create resilient communities that bridge Indigenous knowledge and scientific innovation to improve livelihoods and safeguard ecosystems</p>
-          {/* <Link to='/Services'>
+          <Link to='/Services'>
             <button>Our Services</button>
-          </Link> */}
+          </Link>
           
         </div>
 
-      </div>
+      </div> */}
     </div>
     </div>
     
