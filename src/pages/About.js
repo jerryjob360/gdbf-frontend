@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import '../styles/About.css'
 import { Link, useNavigate } from 'react-router-dom'
 import { useStateContext } from '../contexts/contextProvider';
-import BannerImage from '../assets/back.jpeg'
+import BannerImage from '../assets/frontpg.png'
 
 function About() {
   
