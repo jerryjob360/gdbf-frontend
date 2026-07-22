@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import logoBg from '../assets/gdfb_logo-nobg.png';
-import logoSm from '../assets/logo_small.png';
+import logoBg from '../assets/bg_new_nobg_bg.png';
+import logoSm from '../assets/bg_new_nobg.png';
 import { Link, NavLink } from 'react-router-dom';
 import ReorderIcon from '@mui/icons-material/Reorder';
 import '../styles/Navbar.css';

@@ -86,14 +86,12 @@
 
 /* MENU ITEM STYLING */
 
-.menuItem {
-  border-radius: 15px;
-  width: 85%;
+.menuItemImage {
+  width: 100%;
   height: auto;
-  margin: 20px;
-  padding-right: 0;
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
-  background-color: rgba(255, 255, 255, 0.7);
+  display: block;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 .menuItem:hover {
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
@@ -101,7 +99,7 @@
   cursor: pointer;
 }
 
-.menuItem div {
+/* .menuItem div {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   width: 100%;
@@ -109,7 +107,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 .menuItem h1 {
   margin-left: 20px;
