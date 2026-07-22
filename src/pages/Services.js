@@ -86,7 +86,7 @@ function Services() {
               <MenuItem
                 key={key}
                 image={menuItem.image}
-                name={menuItem.name}
+                // name={menuItem.name}
                 description={menuItem.description}
               />
             );
