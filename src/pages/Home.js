@@ -52,19 +52,19 @@ function Home() {
           </div>
         </div>
       
-      {/* <div className="headerContainer" >
+      <div className="headerContainer" >
         <div className='header'>
           <h1>Global Development Friends Builders</h1>
         </div>
         <div className='headerCont'>
-          <p>Welcome to Global Development Friends and Builders (GDFB), a Tanzanian NGO dedicated to transforming lives in Dodoma and beyond. Since 2018, we’ve empowered communities with sustainable solutions in environmental stewardship, health, safety, and economic growth. From HIV/AIDS awareness to climate resilience, our work fosters thriving, resilient communities. Join us in building a brighter, sustainable future—contact us today to get involved!</p>
-          <Link to='/Services'>
+          <p>We create resilient communities that bridge Indigenous knowledge and scientific innovation to improve livelihoods and safeguard ecosystems</p>
+          {/* <Link to='/Services'>
             <button>Our Services</button>
-          </Link>
+          </Link> */}
           
         </div>
 
-      </div> */}
+      </div>
     </div>
     </div>
     
