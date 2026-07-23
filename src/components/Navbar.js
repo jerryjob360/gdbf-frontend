@@ -57,19 +57,19 @@ function Navbar() {
                             ]}        
                         > Home </NavLink>
                         <NavLink
-                            to='/Services'
-                            className={({ isActive }) => 
-                            [
-                                isActive? 'active-link':''
-                            ]}
-                        > Services </NavLink>
-                        <NavLink
                             to='/about'
                             className={({ isActive }) => 
                             [
                                 isActive? 'active-link':''
                             ]}
                         > About Us</NavLink>
+                        <NavLink
+                            to='/Services'
+                            className={({ isActive }) => 
+                            [
+                                isActive? 'active-link':''
+                            ]}
+                        > Services </NavLink>
                         <NavLink
                             to='/Allposts'
                             className={({ isActive }) => 
@@ -96,19 +96,19 @@ function Navbar() {
                     ]}
                     > Home </NavLink>
                     <NavLink
-                        to='/Services'
-                        className={({ isActive }) => 
-                    [
-                        isActive? 'active-link':''
-                    ]}
-                    > Services </NavLink>
-                    <NavLink
                         to='/about'
                         className={({ isActive }) => 
                     [
                         isActive? 'active-link':''
                     ]}
                     > About us</NavLink>
+                    <NavLink
+                        to='/Services'
+                        className={({ isActive }) => 
+                    [
+                        isActive? 'active-link':''
+                    ]}
+                    > Services </NavLink>     
                     <NavLink
                             to='/Allposts'
                             className={({ isActive }) => 
