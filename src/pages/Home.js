@@ -47,9 +47,9 @@ function Home() {
               <button>Our Services</button>
             </Link> */}
           </div>
-          <div className='homeImage'>
+          {/* <div className='homeImage'> */}
             <img src={BannerImage} alt="Banner" />
-          </div>
+          {/* </div> */}
         </div>
       
       {/* <div className="headerContainer" >
