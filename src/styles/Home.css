@@ -14,7 +14,7 @@
 
 .homeImage {
   width: 100%;
-  max-height: auto;
+  height: auto;
   overflow: hidden;
 }
 
