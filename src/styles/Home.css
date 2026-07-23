@@ -14,20 +14,21 @@
 
 .homeTop{
   height: auto;
+  overflow: visible;
 }
 
 .homeImage {
   width: 100%;
   height: auto;
-  overflow: visible;
+  /* overflow: visible; */
 }
 
 .homeImage img {
   display: block;
   width: 100%;
   height: auto;
-  max-width: 100%;
-  overflow: visible;
+  /* max-width: 100%;
+  overflow: visible; */
 }
 
 .adminLinks{
