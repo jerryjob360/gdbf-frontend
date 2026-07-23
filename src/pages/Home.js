@@ -40,10 +40,10 @@ function Home() {
       </div>
       <div className='home'>
         <div className='homeTop'>
-          {/* <div className='homeText'>
+          <div className='homeText'>
             <h1>Welcome to GDFB</h1>
             <p>Empowering communities for a sustainable future.</p>
-          </div> */}
+          </div>
           <div className='homeImage'>
             <img src={BannerImage} alt="Banner" />
           </div>
