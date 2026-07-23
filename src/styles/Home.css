@@ -17,14 +17,16 @@
 }
 
 .homeImage {
-  width: 100%;
+  max-height: none;
+  overflow: visible;
 }
 
 .homeImage img {
-  display: block;
+  max-height: none;
+  overflow: visible;
   width: 100%;
-  height: auto;
-  max-height: 90vh;
+  height: auto !important;
+  object-fit: contain !important;
 }
 
 .adminLinks{
