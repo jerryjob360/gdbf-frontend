@@ -14,15 +14,15 @@
 
 .homeImage {
   width: 100%;
-  height: auto;
-  overflow: scroll;
+  max-height: 500px;
+  overflow: hidden;
 }
 
 .homeImage img {
   /* display: block; */
   width: 100%;
-  height: auto;
-  object-fit: fill
+  height: 100%;
+  object-fit: cover;
 }
 
 .adminLinks{
