@@ -15,7 +15,7 @@
 .homeImage {
   width: 100%;
   height: auto;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .homeImage img {
