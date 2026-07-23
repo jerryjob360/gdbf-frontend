@@ -19,6 +19,7 @@
 .homeImage {
   width: 100%;
   height: auto;
+  overflow: visible;
 }
 
 .homeImage img {
@@ -26,6 +27,7 @@
   width: 100%;
   height: auto;
   max-width: 100%;
+  overflow: visible;
 }
 
 .adminLinks{
